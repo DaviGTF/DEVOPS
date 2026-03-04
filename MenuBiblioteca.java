@@ -111,7 +111,6 @@ public class MenuBiblioteca {
                     break;
                 case 4:
                     Usuario.ExibirMenuUsuarios.exibir(fila, scanner);
-                    scanner.nextLine();  // Limpa buffer extra
                     break;
                 case 5:
                     System.out.println("Digite o título do livro base de recomendação:");
