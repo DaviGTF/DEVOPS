@@ -31,6 +31,7 @@ public class MenuBiblioteca {
                 new Livro("Dragon Ball Vol. 34", "Akira Toriyama", "Panini", "Mangá", 2015, 256),
                 new Livro("JoJo's Bizarre Adventure: Diamond is Unbreakable - Vol. 47", "Hirohiko Araki", "Shueisha", "Mangá", 1996, 192),
                 new Livro("Mob Pscyho 100 Vol. 1", "One", "Panini", "Mangá", 2017, 200),
+                new Livro("Chainsaw Man Vol.1", "Tatsuki Fujimoto", "Panini", "Mangá", 2022, 212),
 
                 new Livro("Demolidor: A Queda de Murdock", "Frank Miller", "Panini", "Quadrinhos", 2019, 216),
                 new Livro("Lanterna Verde: a Noite Mais Densa", "Geoff Johns", "Panini", "Quadrinhos", 2009, 304),
@@ -127,7 +128,7 @@ public class MenuBiblioteca {
                     exibirSubmenuDijkstra(scanner);
                     break;
                 case 8:
-                    System.out.println("Encerrando o sistema...");
+                    System.out.println("Encerrando o sistema, até a próxima...");
                     break;
                 default:
                     System.out.println("Opção inválida!");
