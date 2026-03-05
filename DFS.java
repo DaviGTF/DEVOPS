@@ -17,7 +17,6 @@ public class DFS {
             return true;
         }
 
-        // Acesso p/ subárvores com getters
         if (buscarRecursivo(no.getEsquerda(), tituloAlvo, caminho) ||
                 buscarRecursivo(no.getDireita(), tituloAlvo, caminho)) {
             return true;

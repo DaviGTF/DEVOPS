@@ -19,7 +19,6 @@ public class BFS {
                 return caminho;
             }
 
-            // Acesso p/ subarvores pelos getters
             if (no.getEsquerda() != null) fila.add(no.getEsquerda());
             if (no.getDireita() != null) fila.add(no.getDireita());
         }

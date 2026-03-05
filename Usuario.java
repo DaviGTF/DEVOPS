@@ -44,7 +44,7 @@ public class Usuario {
                 System.out.println("4. Voltar ao Menu Principal");
                 System.out.print("Escolha uma opção: ");
                 opcao = scanner.nextInt();
-                scanner.nextLine(); // Consumir quebra de linha
+                scanner.nextLine();
 
                 switch (opcao) {
                     case 1:
@@ -75,7 +75,7 @@ public class Usuario {
                                 }
                             }
                             if (!encontrado) {
-                                System.out.println("Usuário ID " + idRemover + " não encontrado!");
+                                System.out.println("Usuário de ID " + idRemover + " não encontrado!");
                             }
                             break;
                     case 4:
