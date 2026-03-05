@@ -33,7 +33,7 @@ public class MenuBiblioteca {
                 new Livro("Mob Pscyho 100 Vol. 1", "One", "Panini", "Mangá", 2017, 200),
                 new Livro("Chainsaw Man Vol.1", "Tatsuki Fujimoto", "Panini", "Mangá", 2022, 212),
                 new Livro("Ordem Paranormal - Iniciação", "Rafael Lange", "Jambô", "Terror", 2023, 229),
-
+                new Livro("Full Metal Alchemist Vol.4", "Hiromu Arakawa", "Panini", "Mangá", 2012, 262),
 
                 new Livro("Demolidor: A Queda de Murdock", "Frank Miller", "Panini", "Quadrinhos", 2019, 216),
                 new Livro("Lanterna Verde: a Noite Mais Densa", "Geoff Johns", "Panini", "Quadrinhos", 2009, 304),
