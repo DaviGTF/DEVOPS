@@ -16,5 +16,15 @@ jobs:
         with:
             name: bibliotecazipada.zip
             path: |
-              '**.py'
+              **/*.py
               README.md
+
+  Deploy:
+    runs-on:  ubuntu-latest
+    needs: Deliver
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: bibliotecazipada.zip
+      - name: Display structure of downloaded files
+        run: ls -R
