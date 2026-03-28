@@ -1,4 +1,4 @@
-from historico_navegacao import HistoricoNavegacao
+from .historico_navegacao import HistoricoNavegacao
 
 class Usuario:
     def __init__(self, nome, id_usuario):

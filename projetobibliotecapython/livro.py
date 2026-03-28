@@ -7,7 +7,7 @@ class Livro:
         self.ano_publicacao = ano_publicacao
         self.numero_paginas = numero_paginas
         # Importação tardia para evitar recursão circular
-        from fila_espera_usuario import FilaDeEsperaUsuario
+        from .fila_espera_usuario import FilaDeEsperaUsuario
         self.fila_espera = FilaDeEsperaUsuario()
 
     def mostrar_livros(self):

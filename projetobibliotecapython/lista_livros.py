@@ -1,5 +1,5 @@
-from livro import Livro
-from grafo_recomendacao import GrafoRecomendacao
+from .livro import Livro
+from .grafo_recomendacao import GrafoRecomendacao
 
 class ListaEncadeadaLivros:
     def __init__(self):
