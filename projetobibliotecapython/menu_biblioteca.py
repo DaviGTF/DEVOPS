@@ -1,12 +1,12 @@
 import sys
 from collections import deque
-from livro import Livro
-from usuario import Usuario, ExibirMenuUsuarios
-from arvore_livros import ArvoreBinariaLivros
-from lista_livros import ListaEncadeadaLivros
-from fila_espera_usuario import FilaDeEsperaUsuario
-from bfs import BFS
-from dfs import DFS
+from .livro import Livro
+from .usuario import Usuario, ExibirMenuUsuarios
+from .arvore_livros import ArvoreBinariaLivros
+from .lista_livros import ListaEncadeadaLivros
+from .fila_espera_usuario import FilaDeEsperaUsuario
+from .bfs import BFS
+from .dfs import DFS
 
 class MenuBiblioteca:
     def __init__(self):
