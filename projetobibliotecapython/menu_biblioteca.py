@@ -52,6 +52,16 @@ class MenuBiblioteca:
             self.biblioteca.adicionar_livro(l)
             self.arvore_livros.inserir(l)
 
+        usuarios_iniciais = [
+            Usuario("Davi Gustavo", 259),
+            Usuario("Ana Beatriz", 1909),
+            Usuario("Rodrigo Junior", 2112),
+            Usuario("Laura Souza", 9101)
+        ]
+
+        for u in usuarios_iniciais:
+            self.fila_usuarios_geral.adicionar_usuario_fila(u)
+
     def iniciar(self):
         self.inicializar_dados()
         

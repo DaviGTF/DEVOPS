@@ -16,4 +16,7 @@ def listar_livros():
 
 @app.get("/usuarios")
 def listar_usuarios():
-    return list(biblioteca_logic.fila_usuarios_geral.fila)
+    return [
+        {"nome": u.nome, "id": u.id}
+        for u in biblioteca_logic.fila_usuarios_geral.fila
+    ]
