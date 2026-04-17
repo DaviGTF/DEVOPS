@@ -39,3 +39,4 @@ async def test_logica_fluxo_cadastro_e_listagem():
 
     usuario_encontrado = any(u['id'] == id_novo for u in todos_usuarios)
     assert usuario_encontrado is True
+    
